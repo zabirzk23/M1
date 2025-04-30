@@ -1,4 +1,3 @@
-
 # EX-01-Datatypes-Operators
 ## AIM:
 Write a C program to read 3 characters one by one and print the characters in a reverse order.
@@ -10,23 +9,20 @@ Write a C program to read 3 characters one by one and print the characters in a 
 4.	End the program.
 
 ## PROGRAM:
-
+```
+#include <stdio.h>
+int main()
+{
+    char a,b,c;
+    scanf("%c %c %c",&a,&b,&c);
+    printf("The reverse of %c%c%c is %c%c%c",a,b,c,c,b,a);
+    return 0;
+    
+}
+```
 ## OUTPUT:
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+![Screenshot 2025-04-30 141342](https://github.com/user-attachments/assets/e1f6acbd-449d-4120-8ee5-756e6d3f66af)
 
 
 ## RESULT:
@@ -46,19 +42,30 @@ Write a C program to read A values and check whether A is positive number or not
 6.End the program.
 
 # PROGRAM:
+```
+#include <stdio.h>
 
+int main() {
+    int A;
+
+    printf("Enter a number: ");
+    scanf("%d", &A);
+
+    if (A > 0) {
+        printf("It is a positive number.\n");
+    } else {
+        printf("It is not a positive number.\n");
+    }
+
+    return 0;
+}
+```
 # OUTPUT:
+![Screenshot 2025-04-30 142533](https://github.com/user-attachments/assets/e632a314-461b-406b-a593-4894728fe448)
 
+![Screenshot 2025-04-30 142517](https://github.com/user-attachments/assets/3884eb53-625b-4f96-9e7e-dfbf15d65a15)
 
-
-
-
-
-
-
-
-
-
+![Screenshot 2025-04-30 142449](https://github.com/user-attachments/assets/3db0a347-5cbb-47fc-a658-2af680e9adec)
 # RESULT:
 Thus the program to read A values and check whether A is positive number or not has been executed successfully.
  
